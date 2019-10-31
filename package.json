@@ -1,0 +1,22 @@
+{
+  "name": "show-qr-code-app",
+  "version": "1.0.0",
+  "description": "This app shows a qr code and runs a python programm after a successful IOTA payment.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.21",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "iota-payment": "0.0.18",
+    "python-shell": "^1.0.8"
+  }
+}
