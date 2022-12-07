@@ -15,7 +15,7 @@
   "dependencies": {
     "@iota/converter": "^1.0.0-beta.21",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "iota-payment": "0.0.18",
     "python-shell": "^1.0.8"
   }
